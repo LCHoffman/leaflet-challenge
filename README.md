@@ -6,6 +6,13 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 ## Earthquake Magnitude Visualization
 Create a map using Leaflet that plots all of the earthquakes from data set based on their longitude and latitude.
  * Data markers should reflect the magnitude of the earthquake by their size and and depth of the earth quake by color.
- * Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
+ * Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear based on a color code.
  * Include popups that provide additional information about the earthquake when a marker is clicked.
  * Create a legend that will provide context for your map data.
+
+## Notes
+ 1. I have color vision deficits which can mean color coding markers more difficult.  I tend to stay away from color scales that involve shades of the same color OR colors that transition directly from green to red.  I created a color scale that used distinguishable colors in blue, green, yellow and red families.  I also outlined the markers with black so that they were more easily visible on the street and satellite maps.  With my deficient color vision, markers without the black outline "disappear" into the map.
+ 2. In order to get the white background on the legend to display, I created a new class in the CSS file.
+ 
+ ## Sample Map
+ ![Image of Map](https://github.com/LCHoffman/leaflet-challenge/blob/main/Map-Example.png)
