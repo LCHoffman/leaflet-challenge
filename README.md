@@ -9,3 +9,10 @@ Create a map using Leaflet that plots all of the earthquakes from data set based
  * Earthquakes with higher magnitudes should appear larger and earthquakes with greater depth should appear darker in color.
  * Include popups that provide additional information about the earthquake when a marker is clicked.
  * Create a legend that will provide context for your map data.
+
+## Notes
+ 1. I have color vision deficits which can mean color coding markers are more difficult.  I tend to stay away from color scales that involve shades of the same color OR colors that transition directly from green to red.  I created a color scale that used distinguishable colors using blue, green, yellow and red.  I also outlined the markers with black so that they were more easily visible on the street and satellite maps.  With my deficient color vision, markers without the black outline "disappear" into the map.
+ 2. In order to get the white background on the legend to display, I created a new class in the CSS file.
+ 
+ ## Sample Map
+ 
