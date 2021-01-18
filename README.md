@@ -15,4 +15,4 @@ Create a map using Leaflet that plots all of the earthquakes from data set based
  2. In order to get the white background on the legend to display, I created a new class in the CSS file.
  
  ## Sample Map
- ![Image of Map](/main/Map-Example.png)
+ ![Image of Map](https://github.com/LCHoffman/leaflet-challenge/blob/main/Map-Example.png)
