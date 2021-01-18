@@ -11,8 +11,11 @@ Create a map using Leaflet that plots all of the earthquakes from data set based
  * Create a legend that will provide context for your map data.
 
 ## Notes
- 1. I have color vision deficits which can mean color coding markers more difficult.  I tend to stay away from color scales that involve shades of the same color OR colors that transition directly from green to red.  I created a color scale that used distinguishable colors in blue, green, yellow and red families.  I also outlined the markers with black so that they were more easily visible on the street and satellite maps.  With my deficient color vision, markers without the black outline "disappear" into the map.
+ 1. I have color vision deficits which can mean color coding markers more difficult.  I tend to stay away from color scales that involve shades of the same color OR colors that transition directly from green to red.  I created a color scale that used distinguishable colors in blue, green, yellow and red families.  I also outlined the markers with black so that they were more easily visible on the street and satellite maps.  With my deficient color vision, markers without the black outline "disappear" into the map.  The color scale (legend) for the depth of the earthquakes is shown below.
  2. In order to get the white background on the legend to display, I created a new class in the CSS file.
  
+ ## Legend
+ ![Legend](https://github.com/LCHoffman/leaflet-challenge/blob/main/Images/depth-scale.png)
+ 
  ## Sample Map
- ![Image of Map](https://github.com/LCHoffman/leaflet-challenge/blob/main/Map-Example.png)
+ ![Image of Map](https://github.com/LCHoffman/leaflet-challenge/blob/main/Images/Map-Example.png)
